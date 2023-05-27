@@ -936,6 +936,7 @@ img.yt, img.w3 {
     border-radius: 10px;
     box-shadow: inset 0px 0px 30px rgb(112, 111, 111);
     margin-block: 10px;
+    font-size:1rem;
   }
 
 .ham { 
