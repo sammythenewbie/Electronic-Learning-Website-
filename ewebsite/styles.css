@@ -8,14 +8,12 @@
 }
 html {
     scroll-behavior: smooth;
-    overflow: hidden;
-    outline: none;
 }
 body {
-     width: 100vw;
+     width: 100%;
+     height: auto;
      font-family: "Varela Round", sans-serif;
     background: #3a3a3a;
-
 /*     font-family: "Montserrat", sans-serif;
 overflow: ;
  */}
@@ -139,12 +137,12 @@ ul {
     border-bottom: 3px solid#ddd;
     z-index: 990;
 }
- li {
+ ul li {
     list-style-type: none;
 /*     margin: auto;
  */    
 }
- li > a{
+ul li > a{
     text-decoration: none;
     color: white;
     position: -webkit-sticky;
@@ -683,12 +681,12 @@ img.yt, img.w3 {
   .content p img {
     width: 100%;
     height: 300px;
-    margin-inline:auto;
+    margin:auto;
   }
   .content p img.embedded {
     width: 350px;
     height: auto;
-    margin-left: 10px;
+    margin: auto;
     float: right;
   }
   .inputness {
@@ -719,7 +717,7 @@ img.yt, img.w3 {
     text-decoration: none;
     box-shadow: 0 0px 8px 5px rgba(248, 246, 246, 0.2), 0 0px 20px 5px rgba(248, 246, 246, 0.19);
   }
-  ul#mobile {
+  #mobile {
     display: none;
   }
   section.mobile {
@@ -733,15 +731,17 @@ img.yt, img.w3 {
     ul#desk {
         display: none;
     }
-    img#logo {
-        width: 30%;
-        height: 30%;
+    img#loga {
+        width: 60%;
+        margin:0;
+        height: 20%;
+        border-radius: 10px;
     }
-    ul#mobile {
+    #mobile {
         display: flex;
         width: 100%;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         gap: 10px;
         background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgb(8, 20, 59) ), to(#2e54a7)  );
     /*      justify-content: space-between;
@@ -753,6 +753,25 @@ img.yt, img.w3 {
         top: 0;
         border-bottom: 3px solid#ddd;
         z-index: 998;
+    }
+    #mobile li {
+        list-style-type: none;
+    }
+    #mobile li a {
+        text-decoration: none;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-inline:10px;
+    padding-block: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 1rem;
+/*     margin: auto;
+ */    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:capitalize;
     }
     .config1 .item1 {
     width: 180px;
@@ -766,15 +785,6 @@ img.yt, img.w3 {
     border-radius: 5px;
     padding: 5px;
     }
-      .content p img {
-
-    width: 400;
-
-    height: 300px;
-
-    margin:auto;
-
-  }
     .test {
         display: block;
         font-size: 1rem;
@@ -972,11 +982,8 @@ img.yt, img.w3 {
   overflow-x: hidden;
   transition: 0.5s;
   padding: 15px 0;
+  
 }
-
-
-
-
 nav.nav {
     display: flex;
     width: 50%;
@@ -984,8 +991,9 @@ nav.nav {
     flex-wrap: wrap;
     height: auto;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
+    margin: auto;
     z-index: 999;
     padding-block:50px;
     align-items: center;
@@ -995,7 +1003,9 @@ nav.nav {
     background: #3a3a3a;
     transform: scale(0.1);
     display: none;
+    border: 3px dashed dodgerblue;
 }
+
 @keyframes open {
     from {transform: scale(0.1);}
     to {transform: scale(1);}
@@ -1037,8 +1047,6 @@ div.sidenav .closebtn {
   font-size: 36px;
   margin-left: 50px;
 }
-}
-
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
