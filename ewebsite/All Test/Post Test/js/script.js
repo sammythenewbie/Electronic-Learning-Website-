@@ -235,7 +235,4 @@ function welcome() {
     alert("Welcome 😎.");
 }
 
-setInterval(function(){
-    window.location.reload();
-    window.stop();
-  },100)
+
