@@ -679,14 +679,14 @@ img.yt, img.w3 {
     font-weight: bolder;
   }
   .content p img {
-    width: 400px;
+    width: 100%;
     height: 300px;
-    margin-left: 10rem;
+    margin:auto;
   }
   .content p img.embedded {
-    width: 350px;
+    width: 100%;
     height: auto;
-    margin-left: 10px;
+    margin:auto;
     float: right;
   }
   .inputness {
