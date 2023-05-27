@@ -683,7 +683,7 @@ img.yt, img.w3 {
   .content p img {
     width: 400px;
     height: 300px;
-    margin-left: 10rem;
+    margin-inline:auto;
   }
   .content p img.embedded {
     width: 350px;
