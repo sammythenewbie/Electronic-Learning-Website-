@@ -684,7 +684,7 @@ img.yt, img.w3 {
     margin:auto;
   }
   .content p img.embedded {
-    width: 100%;
+    width: 350px;
     height: auto;
     margin:auto;
     float: right;
