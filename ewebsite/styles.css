@@ -766,6 +766,15 @@ img.yt, img.w3 {
     border-radius: 5px;
     padding: 5px;
     }
+      .content p img {
+
+    width: 400;
+
+    height: 300px;
+
+    margin:auto;
+
+  }
     .test {
         display: block;
         font-size: 1rem;
@@ -1028,6 +1037,8 @@ div.sidenav .closebtn {
   font-size: 36px;
   margin-left: 50px;
 }
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
