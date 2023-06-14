@@ -242,7 +242,7 @@ div.iframe {
 iframe {
     width: 100%;
     height: 70vh;
-    object-fit: contain;
+    object-fit: cover;
     position: -webkit-sticky;
     position: sticky;
     border-inline: 3px solid #ddd;
