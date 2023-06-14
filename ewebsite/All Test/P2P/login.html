@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7756979872.js" crossorigin="anonymous"></script>
+    <title>Log In</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+     div.logIn {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+/*     background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #597692;
+    z-index: 998;
+}
+div.logIn .form {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: -10px 10px 1900px 2px ;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    border-radius: 10px;
+    color: #0040ad;
+    align-items: center;
+}
+div.logIn .form input {
+    border-radius: 10px;
+    width: 300px;
+    outline: 2px solid #0040ad;
+    font-size: 1rem;
+    padding: 10px;
+    border: 0;
+    color: #004085;
+}
+div.logIn .form input:nth-child(1) {
+    margin-top: 40px;
+}
+div.logIn .form button {
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 0; 
+    color: white;
+    padding: 10px;
+    margin-block: 20px;
+    background-color: #0040ad;  
+}
+.alertBox {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: white;
+    border-top: 10px solid rgb(230, 45, 45);
+    color: rgb(230, 45, 45);
+    text-align: center;
+    transition: 1s;
+    z-index: 999;
+    border-radius: 5px;
+}
+.fa-circle-user{
+    font-size: 20px;
+    background-color: #0040ad;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    left:38%;
+    top: 40%;
+    text-align: center;
+    outline:2px solid white;
+}
+.fa-key {
+    font-size: 20px;
+    background-color: #0040ad;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    left:38%;
+    top: 50%;
+    text-align: center;
+    outline:2px solid white;
+}
+h2 {
+    margin-block: 20px;
+    font-size: 30px;
+}
+    </style>
+</head>
+<body>
+    <div class="alertBox">
+        <p class="alert">msg</p>
+    </div>
+
+
+    <div class="logIn" id="logIn">
+        <div class="form">
+            <i class="fas fa-circle-user"></i>
+            <i class="fa-solid fa-key"></i>
+            <h2>Log in to continue.</h2>
+             <input type="text" name="name" id="name" placeholder="Learner Reference Number or LRN" class="email" required>
+            <input type="password" name="password" id="password" placeholder="Password" class="password" required>
+            <button class="submit-btn" onclick="window.open('index.html')">Log In</button>
+        </div>
+    </div>
+    <script src="/js/form.js"></script>
+</body>
+</html>
