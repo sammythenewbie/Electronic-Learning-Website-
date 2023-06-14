@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    padding: 0;
+    margin-block: 0;
+    margin-inline: 10px;
+}
+/* h2,p,div {
+    margin: 10px;
+} */
+h2 {
+    padding: 10px;
+    background-color: #1B1340;
+    color: white;
+    border-radius: 10px;
+}
+h2 span {
+    color: rgb(67, 212, 67);
+    padding-inline: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(67, 212, 67);
+    font-size: large;
+    text-align: center;
+}
+.testContainer {
+    padding: 10px;
+    background-color: #553cc7;
+    border-radius: 10px;
+}
+div span {
+    color: rgb(102, 253, 246);
+}
+div ul li {
+    list-style-type: none;
+    margin-block: 1.2rem;
+
+}
+div ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+div ul li a:hover {
+    color:black;
+    text-decoration: none;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+}
+p {
+    padding-inline: 15px;
+}
+.fa-microscope {
+    color: gold;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+a.home { 
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 50px;
+}
+a.home:hover {
+    background-color: #1B1340;
+    color: white;
+    border: 1px solid #1B1340;
+}
+nav {
+    background-color: #553cc7;
+    padding: 10px;
+    padding-top: 15px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
