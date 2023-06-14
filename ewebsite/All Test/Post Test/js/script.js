@@ -77,7 +77,7 @@ restart_quiz.onclick = ()=>{
 
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
-    window.open("/ewebsite/index.html"); //reload the current window
+    window.open("./ewebsite/index.html"); //reload the current window
 }
 
 const next_btn = document.querySelector("footer .next_btn");
