@@ -746,7 +746,7 @@ img.yt, img.w3 {
         background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgb(8, 20, 59) ), to(#2e54a7)  );
     /*      justify-content: space-between;
      */ padding-inline: 10px;
-     padding-block:5px;"
+     padding-block:10px;
     /*     background: #374a65;
      */ position: -webkit-sticky;
         position: sticky;
@@ -773,6 +773,24 @@ img.yt, img.w3 {
  */    font-family:Georgia, 'Times New Roman', Times, serif;
     text-transform:capitalize;
     }
+      #mobile li:nth-child(2) {
+            margin-right:auto;
+            font-size:1.8rem;
+            color: skyblue;
+            background:none;
+            font-weight:400;
+            text-align:center;
+            padding-bottom:15px;
+            font-family: 'Concert One', cursive;
+          /* font-family: 'Moirai One', cursive;*/
+           /* font-family: 'Bagel Fat One', cursive;*/
+           /*font-family: 'Righteous', cursive;*/
+          }
+          
+          #mobile li img {
+              width:40px;
+              height:40px;
+          }
     .config1 .item1 {
     width: 180px;
     height: 150px;
