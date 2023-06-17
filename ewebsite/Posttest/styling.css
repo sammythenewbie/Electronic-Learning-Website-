@@ -71,9 +71,37 @@ a.home:hover {
     border: 1px solid #1B1340;
 }
 nav {
-    background-color: #553cc7;
-    padding: 10px;
     padding-top: 15px;
-    width: 100%;
+    width: 98%;
     border-radius: 0px 0px 10px 10px;
+    list-style-type:none;
+            display: flex;
+            justify-content:space-between;
+            padding:0;
+            gap:12px;
+            align-items: Center;
+            margin-inline:auto;
+            margin-top: 10px;
 }
+
+     nav   li a{
+            padding:5px;
+            outline:2px solid #553cc7;
+            width:100px;
+            color: #553cc7;
+        }
+     nav   li:nth-child(2) {
+            margin-right:auto;
+            font-size:1.8rem;
+            color: #553cc7;
+            font-weight:bold;
+           /*font-family: 'Moirai One', cursive;*/
+           /* font-family: 'Bagel Fat One', cursive;*/
+           /*font-family: 'Righteous', cursive;*/
+           font-family: 'Concert One', cursive;
+           padding-bottom:15px;
+        }
+      nav  li img {
+              width:40px;
+              height:40px;
+          }
