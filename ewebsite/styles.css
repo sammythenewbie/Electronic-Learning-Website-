@@ -737,6 +737,8 @@ img.yt, img.w3 {
         height: 20%;
         border-radius: 10px;
     }
+      div span { display:none;}
+      
     #mobile {
         display: flex;
         width: 100%;
@@ -791,6 +793,9 @@ img.yt, img.w3 {
               width:40px;
               height:40px;
           }
+           #mobile li span {
+         color:gold;
+           }
     .config1 .item1 {
     width: 180px;
     height: 150px;
