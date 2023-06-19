@@ -193,6 +193,8 @@ div.logIn-mobile{
               background: white;
               padding: 5px;
 }
+   select {
+      font-size:0.8rem;
 }
  h2 {
             margin-right:auto;
