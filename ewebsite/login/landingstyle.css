@@ -222,7 +222,7 @@ div.logIn-mobile{
         width: fit-content;
     }
     select {
-        font-size: 1rem;
+        font-size: 0.8rem;
         border: 0;
         background-color: inherit;
         margin-left: auto;
