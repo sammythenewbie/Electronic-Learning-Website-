@@ -939,7 +939,7 @@ img.yt, img.w3 {
         color:white;
     }
   }
-   h2, h2:nth-child(2) {
+   /* h2, h2:nth-child(2) {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0; /* Gives that scrolling effect as the typing happens */
@@ -973,7 +973,7 @@ img.yt, img.w3 {
     50% {color:#00abff;}
     75% {color:gold;}
     100% {color:gold;}
-  }
+  } */
   code span{
     background-color: rgb(209, 207, 207);
     padding: 15px;
